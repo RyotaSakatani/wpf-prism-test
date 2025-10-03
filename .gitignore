@@ -1,0 +1,75 @@
+## WPF / Visual Studio 用 .gitignore
+
+# ユーザー固有ファイル
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ビルド成果物
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+
+# Visual Studio
+.vs/
+*.vc.db
+*.VC.db
+*.VC.opendb
+
+# WPF Designer / XAML 関連キャッシュ
+*.g.cs
+*.g.i.cs
+*.g.vb
+*.g.i.vb
+*.iobj
+*.ipdb
+
+# WPF 特有の生成ファイル
+*.baml
+*.xaml.cs ~ （これは通常ソースなので削除しないこと）
+*.generated.cs
+
+# 一時ファイル
+*.tmp
+*.tmp_proj
+*.log
+*.cache
+*.bak
+*.backup
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ユーザー環境固有設定
+appsettings.Development.json
+secrets.json
+
+# Test
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# OS / IDE 固有
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+.vscode/
+.idea/
+
+# Rider
+*.sln.iml
